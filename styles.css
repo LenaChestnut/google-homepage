@@ -1,0 +1,156 @@
+body {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #676767;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+section {
+    padding: 1.2rem 1.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    display: block;
+    margin-left: 1rem;
+}
+
+.fas {
+    font-size: 16px;
+    color: #676767;
+}
+
+a:hover, a:focus, a:visited {
+    color: #676767;
+    text-decoration: underline;
+
+}
+
+.fa-th:hover, .fa-th:focus {
+    color: #181818;
+}
+
+button {
+    border: 1px solid transparent;
+    font: 14px Helvetica;
+    padding: 0.7em 1.3em;
+    color: #676767;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+.search-button {
+    margin: 0.5rem 0.3rem;
+}
+
+.sign-in {
+    background: #4682fa;
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 13px;
+}
+
+.sign-in:hover {
+    box-shadow: 0px 1px 2px #d1d1d1;
+}
+
+.search-button:hover {
+    color: #181818;
+    box-shadow: 0px 1px 2px #d1d1d1,
+                inset 0px 10px 20px rgba(255,255,255,0.8);
+    box-sizing: border-box;
+    border: 1px solid #d1d1d1;
+}
+
+.search-container {
+    text-align: center;
+    vertical-align: center;
+    padding-top: 107px;
+}
+
+.search-bar {
+    width: 580px;
+    height: 46px;
+    margin: 1.5rem auto;
+    border: 1px solid #e7e7e7;
+    border-radius: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar i {
+    align-self: center;
+    margin: 0 17px;
+    color: #9AA0A6;
+    font-size: 14px;
+}
+
+.search-bar .fa-microphone {
+    font-size: 17px;
+    color: #4682fa;
+}
+
+.search-bar input {
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+.search-bar:hover, .search-bar:active {
+    box-shadow: 0px 1px 5px #cfcfcf;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-row {
+    background-color: #f5f5f5;
+    border-top: 1px solid #dfdfdf;
+    height: 40px;
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.footer-row p {
+    font-size: 15px;
+}
+
+.footer-row ul {
+    padding: 0;
+    display: flex;
+}
+
+.bottom-row {
+    justify-content: space-between;
+}
+
+.footer-row li {
+    display: block;
+}
+
+.bottom-row ul:first-of-type a {
+    margin-right: 1.5rem;
+    padding: 12px 0;
+}
+
+.bottom-row ul:last-of-type a {
+    margin-left: 1.5rem;
+    padding: 12px 0;
+}
